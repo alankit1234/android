@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
         offersButton.setOnClickListener{
             val intent = Intent(this,SecondActivity::class.java )
+            startActivity(intent)
         }
     }
 }
